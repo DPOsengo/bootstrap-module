@@ -1,5 +1,10 @@
 body {
   padding: 50px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Surchager un sélecteur de Bootstrap */
