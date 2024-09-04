@@ -2,8 +2,32 @@ body {
   background-color: indigo;
 }
 
-.col {
+.row > * {
   background-color: orangered;
   height: 200px;
-  margin: 1px;
+  /* margin: 1px; */
+}
+
+.un {
+  background-color: #e91e63;
+}
+
+.deux {
+  background-color: #9c27b0;
+}
+
+.trois {
+  background-color: orangered;
+}
+
+.quatre {
+  background-color: #ff9800;
+}
+
+.cinq {
+  background-color: #00bcd4;
+}
+
+.six {
+  background-color: #f44336;
 }
