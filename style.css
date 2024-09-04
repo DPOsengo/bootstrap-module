@@ -1,0 +1,9 @@
+body {
+  background-color: indigo;
+}
+
+.col {
+  background-color: orangered;
+  height: 200px;
+  margin: 1px;
+}
