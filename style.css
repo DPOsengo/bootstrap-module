@@ -1,3 +1,8 @@
 body {
   padding: 50px;
 }
+
+/* Surchager un sélecteur de Bootstrap */
+.table-striped > tbody > tr:nth-of-type(2n + 1) > * {
+  background: orange;
+}
