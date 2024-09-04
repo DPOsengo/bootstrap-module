@@ -13,18 +13,53 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="un col-sm-12 col-md-6 col-lg-4 col-xl-3">1</div>
-        <div class="deux col-sm-12 col-md-6 col-lg-4 col-xl-3">2</div>
-        <div class="trois col-sm-12 col-lg-4 col-xl-3">3</div>
+    <h1>Créer votre compte</h1>
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+        <!-- <div id="emailHelp" class="form-text">
+          We'll never share your email with anyone else.
+        </div> -->
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+        />
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input
+          type="email"
+          class="form-control"
+          id="floatingInput"
+          placeholder="name@example.com"
+        />
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Username"
+          aria-label="Username"
+          aria-describedby="basic-addon1"
+        />
       </div>
 
-      <div class="row">
-        <div class="quatre col-sm-12 col-md-3 col-lg-4 col-xl-3">4</div>
-        <div class="cinq col-sm-12 col-md-6 col-lg-4 col-xl-3">5</div>
-        <div class="six col-sm-12 col-md-3 col-lg-4 col-xl-3">6</div>
-      </div>
-    </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </body>
 </html>
